@@ -1,4 +1,4 @@
-Creating a full-stack application involves several stages, from initial planning to deployment. The process includes requirements gathering, system design, development, testing, deployment, and maintenance. Here's a structured guide to help you visualize and organize the process, including key steps, methodologies like Data Flow Diagrams (DFD), and additional procedures:
+Creating a full-stack real estate application involves several stages, from initial planning to deployment. The process includes requirements gathering, system design, development, testing, deployment, and maintenance. Here's a structured guide to help you visualize and organize the process, including key steps, methodologies like Data Flow Diagrams (DFD), and additional procedures:
 
 1. Requirements Gathering & Planning
 
