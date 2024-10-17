@@ -6,6 +6,9 @@ Objective: Understand the purpose, users, and functionality of the application.
 
 Key Activities:
 
+
+
+
 Stakeholder meetings: Discuss the business goals and technical requirements.
 
 Define user roles and permissions.
@@ -20,7 +23,6 @@ Output:
 Requirements document.
 
 Rough timeline and project milestones.
-
 
 
 2. System Design
@@ -264,13 +266,6 @@ Testing: Perform unit, integration, and end-to-end testing.
 Deployment: Use platforms like AWS, Vercel, or Docker for deploying the application.
 
 Maintenance: Set up monitoring, ensure scalability, and implement continuous improvements.
-
-
-
----
-
-Q1: How can I optimize the
-
 
 
 
