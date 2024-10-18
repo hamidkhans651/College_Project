@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate Homepage</title>
     <link rel="stylesheet" href="css/Index.style.css">
 </head>
+
 <body>
     <!-- Header Section -->
     <header>
-        <div class="logo">
-            <h1>RealEstateHub</h1>
-        </div>
+
         <nav>
+            <button class="menu-toggle">☰</button> <!-- Hamburger Menu Icon -->
+            <div class="logo">
+                <h1>RealEstateHub</h1>
+            </div>
             <ul>
                 <li><a href="#">Buy</a></li>
                 <li><a href="#">Rent</a></li>
                 <li><a href="#">Sell</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Home Loans</a></li>
+                <li><a href="#">Find an Agent</a></li>
+                <li><a href="#">Manage Rentals</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Agent Hub</a></li>
+                <li><a href="#">Help</a></li>
             </ul>
         </nav>
     </header>
+
 
     <!-- Hero Section with Search Bar -->
     <section class="hero">
@@ -64,6 +74,19 @@
         <p>&copy; 2024 RealEstateHub. All rights reserved.</p>
     </footer>
 
+    <script>
+        // JavaScript to handle menu toggle for mobile
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navList = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('open');
+            navList.classList.toggle('open');
+        });
+    </script>
+
+
     <script src="script.js"></script>
 </body>
+
 </html>

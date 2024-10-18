@@ -8,33 +8,88 @@ body {
 
 /* Header Styles */
 header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Navbar styles */
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #333;
-    color: white;
 }
 
-header .logo h1 {
-    margin: 0;
-    font-size: 1.5rem;
-}
-
-header nav ul {
-    list-style: none;
+nav ul {
     display: flex;
-    gap: 1rem;
+    font-size: 1rem;
+    align-items: center;
+    list-style-type: none;
 }
 
-header nav ul li a {
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 8px 12px;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        display: none; /* Hide initially for mobile view */
+        width: 100%;
+        padding: 0;
+        background-color: #333;
+    }
+
+    nav ul li {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Hamburger menu button */
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        background-color: #444;
+        padding: 10px;
+        color: white;
+        border: none;
+        margin-left: auto;
+    }
+
+    .menu-toggle.open + ul {
+        display: flex; /* Show menu when toggle is active */
+    }
+}
+
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none; /* Hide the toggle button on larger screens */
+    }
 }
 
 /* Hero Section Styles */
 .hero {
-    background-image: url('public/images/Screenshot-2024-10-18-101429.png');
+    background-color: #333;
+    background-image: url('/home.png');
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -43,16 +98,26 @@ header nav ul li a {
 }
 
 .hero-content h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
+/* Adjust text size for smaller devices */
+@media (max-width: 768px) {
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Search bar and button */
 #search-bar {
     padding: 0.8rem;
-    width: 60%;
+    width: 100%;
+    max-width: 500px;
     margin-right: 0.5rem;
     border: none;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 button {
@@ -62,6 +127,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -76,7 +142,7 @@ button:hover {
 
 .property-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -86,7 +152,8 @@ button:hover {
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 30%;
+    width: 100%;
+    max-width: 300px;
     text-align: center;
 }
 
