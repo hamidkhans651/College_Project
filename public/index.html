@@ -3,12 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Real Estate Homepage</title>
+    <link rel="stylesheet" href="css/Index.style.css">
 </head>
 <body>
-    <div>
-        <h1></h1>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>RealEstateHub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Rent</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </div>
+    <!-- Hero Section with Search Bar -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Find Your Dream Home</h2>
+            <form id="search-form">
+                <input type="text" id="search-bar" placeholder="Search by city, neighborhood, or ZIP code">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Featured Properties Section -->
+    <section class="properties">
+        <h3> Properties</h3>
+        <div class="property-list">
+            <!-- Property Card -->
+            <div class="property-card">
+                <img src="https://via.placeholder.com/300" alt="Property Image">
+                <h4>Luxury Apartment in NYC</h4>
+                <p>$1,500,000</p>
+                <p>3 beds, 2 baths, 1500 sqft</p>
+            </div>
+            <div class="property-card">
+                <img src="https://via.placeholder.com/300" alt="Property Image">
+                <h4>Suburban House in LA</h4>
+                <p>$850,000</p>
+                <p>4 beds, 3 baths, 2000 sqft</p>
+            </div>
+            <div class="property-card">
+                <img src="https://via.placeholder.com/300" alt="Property Image">
+                <h4>Modern Studio in Miami</h4>
+                <p>$600,000</p>
+                <p>1 bed, 1 bath, 800 sqft</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 RealEstateHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
