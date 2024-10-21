@@ -7,10 +7,6 @@ Objective: Understand the purpose, users, and functionality of the application.
 Key Activities:
 
 
-
-
-
-
 Stakeholder meetings: Discuss the business goals and technical requirements.
 
 Define user roles and permissions.
@@ -35,6 +31,11 @@ Key Components:
 
 Data Flow Diagrams (DFD): Visualize how data flows through the system.
   [DFD.Readme.md](https://github.com/hamidkhans651/College_Project/blob/main/DFD)
+
+
+whole Diagram on excalidraw
+
+https://excalidraw.com/#json=2TRogw3FzpEBi2UL7Ld_o,qGRu5_yM7xVs3V40jIcSKA
 
 
 Level 0 (Context Diagram): Shows the interaction between the system and external entities (users, external systems).
