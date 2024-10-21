@@ -6,6 +6,8 @@ Objective: Understand the purpose, users, and functionality of the application.
 
 Key Activities:
 
+[GitHub](https://github.com)
+
 
 
 
