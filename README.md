@@ -6,7 +6,7 @@ Objective: Understand the purpose, users, and functionality of the application.
 
 Key Activities:
 
-[GitHub](https://github.com)
+
 
 
 
@@ -34,6 +34,8 @@ Objective: Plan how each component of the application will interact.
 Key Components:
 
 Data Flow Diagrams (DFD): Visualize how data flows through the system.
+  [GitHub](https://github.com/hamidkhans651/College_Project/blob/main/DFD)
+
 
 Level 0 (Context Diagram): Shows the interaction between the system and external entities (users, external systems).
 
