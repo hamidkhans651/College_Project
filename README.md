@@ -8,7 +8,6 @@ Creating a full-stack real estate application involves several stages, from init
 
 Objective: Understand the purpose, users, and functionality of the application.
 
-Key Activities:
 
 
 Stakeholder meetings: Discuss the business goals and technical requirements.
